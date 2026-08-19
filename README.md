@@ -2,7 +2,9 @@
 
 Code snippet for in-browser bulk deletion of Outlook Web Calendar events.
 
-This is an adaptation of [alex-gru's google-calendar-bulk-deletion](https://github.com/alex-gru/google-calendar-bulk-deletion) script, rewritten for Outlook Web Calendar's different UI and interaction flow (right-click context menu instead of a click-to-open popup, a confirmation dialog step, pagination, retry logic, and logging).
+This is an adaptation of [alex-gru's google-calendar-bulk-deletion](https://github.com/alex-gru/google-calendar-bulk-deletion) script, rewritten for Outlook Web Calendar's different UI and interaction flow (right-click context menu instead of a click-to-open popup, a confirmation dialog step, pagination, retry logic, and logging). If you want to see what this looks like on its Google Calendar format see Alex's Demo gif:
+
+![Demo](demo.gif)
 
 ## Why you might need this script
 
