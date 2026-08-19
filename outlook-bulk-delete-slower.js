@@ -7,6 +7,12 @@
   // aria-label / text. These are the most common values as of Outlook
   // Web (outlook.office.com / outlook.live.com), but Microsoft changes
   // these periodically and they vary by locale/language.
+
+  // Slower with "Extra safety delays"
+  // Presses Escape and waits ~200ms before every right-click (to avoid stray menus)
+  // Waits ~400ms between clicking menu-Delete and clicking confirm-Delete
+  // Waits 500ms after that to check for a recurring-event dialog
+  // Waits 1.5 seconds between each deleted event (vs. 0.8s in the Google Calendar original)
   // =====================================================================
 
   const SELECTORS = {
