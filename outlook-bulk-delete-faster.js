@@ -7,6 +7,21 @@
   // aria-label / text. These are the most common values as of Outlook
   // Web (outlook.office.com / outlook.live.com), but Microsoft changes
   // these periodically and they vary by locale/language.
+  
+  // Faster without "Extra safety delays"
+  // PERFORMANCE TUNING LOG — delays trimmed to speed up bulk deletion.
+  // See DELAY_CONFIG below for the current values used in the script.
+  //
+  // Delay                                  | 'Slower'  | This file
+  // ----------------------------------------|---------|--------
+  // Escape settle before right-click        | 200ms   | 100ms
+  // Menu-Delete search timeout              | 3000ms  | 2000ms
+  // Retry escape settle                     | 400ms   | 250ms
+  // Wait for confirmation dialog to render  | 400ms   | 200ms
+  // Confirm-Delete search timeout           | 3000ms  | 2000ms
+  // Recurring-dialog check delay            | 500ms   | 250ms
+  // Between successful deletions            | 1500ms  | 700ms
+  // Page navigation wait                    | 2000ms  | 1500ms
   // =====================================================================
 
   const SELECTORS = {
