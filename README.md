@@ -29,13 +29,6 @@ It searches for calendar events matching a text string you provide, and deletes 
 3. Paste the snippet below and hit `Enter`. (Some browsers require typing "allow pasting" first.)
 4. Follow the prompts — you'll be asked to confirm before anything is deleted.
 
-## The Snippet
-
-Paste this into your browser's console and hit `Enter`.
-
-```javascript
-// See outlook-bulk-delete.js in this repo for the full script.
-```
 
 ## Credit
 
