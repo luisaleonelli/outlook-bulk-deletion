@@ -10,7 +10,6 @@
   
   // Faster without "Extra safety delays"
   // PERFORMANCE TUNING LOG — delays trimmed to speed up bulk deletion.
-  // See DELAY_CONFIG below for the current values used in the script.
   //
   // Delay                                  | 'Slower'  | This file
   // ----------------------------------------|---------|--------
